@@ -115,7 +115,7 @@ public class GameField extends JPanel implements ActionListener {
             x[i] = x[i - 1];
             y[i] = y[i - 1];
         }
-        if (x[0] > DOT_SIZE * 0 && y[0] == DOT_SIZE * 0 && x[0] <= DOT_SIZE * 4) {    //влево 288:16
+        if (x[0] > DOT_SIZE * 0 && y[0] == DOT_SIZE * 0 && x[0] <= DOT_SIZE * 4) {
             x[0] -= DOT_SIZE;
         } else if (x[0] == 0 && y[0] < SIZE) {
             y[0] += DOT_SIZE;
